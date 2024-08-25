@@ -4,7 +4,7 @@ import Logo from "../logo.jsx";
 import Navbar from "./navbar.jsx";
 import Container from "../container.jsx";
 
-import Button from "../Button.jsx";
+import Button from "../button.jsx";
 // import Aside from "./aside.jsx";
 
 const Header = () => {
