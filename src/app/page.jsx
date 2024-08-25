@@ -1,3 +1,5 @@
+import Header from "@/components/common/header";
+
 export default function HomePage() {
-  return <h1>Hello world</h1>;
+  return <Header className="bg-bgGeneral fuente-general"> </Header>;
 }
