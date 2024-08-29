@@ -5,7 +5,7 @@ import Navbar from "./navbar.jsx";
 import Container from "../container.jsx";
 
 import Button from "../button.jsx";
-// import Aside from "./aside.jsx";
+import Aside from "./aside.jsx";
 
 const Header = () => {
   return (
@@ -16,6 +16,7 @@ const Header = () => {
           <Navbar></Navbar>
           <Button />
         </div>
+        <Aside></Aside>
       </Container>
     </>
   );

@@ -16,6 +16,9 @@ module.exports = {
       fontFamily: {
         display: "Rubik, ui-serif",
       },
+      spacing: {
+        752: "752px",
+      },
     },
   },
   plugins: [],
