@@ -1,6 +1,8 @@
 "use client";
 
-import UserList from "../../components/crud/UserList";
+import UserList from "@/components/crud/userList";
+
+UserList;
 
 const CrudPage = () => {
   return (
