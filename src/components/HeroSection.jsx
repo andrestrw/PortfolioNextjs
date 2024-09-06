@@ -40,7 +40,7 @@ const HeroSection = () => {
             //   position: "relative",
             // }}
           >
-            <p className=" text-white fuente-general  text-4xl  text-center  xl:text-7xl  leading-relaxed">
+            <p className=" text-white fuente-general  text-3xl  text-center  xl:text-7xl  ">
               With an analytical mind, a resolutive approach, and unwavering
               resilience, I am a full stack developer who masters the JavaScript
               ecosystem to turn ideas into digital realities

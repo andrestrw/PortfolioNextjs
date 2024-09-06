@@ -36,6 +36,11 @@ module.exports = {
         ],
         //         text-7xl	font-size: 4.5rem; /* 72px */
         // line-height: 1;
+        "3xl": [
+          {
+            lineHeight: "1.33",
+          },
+        ],
       },
     },
   },

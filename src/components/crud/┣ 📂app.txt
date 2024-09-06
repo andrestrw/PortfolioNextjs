@@ -1,0 +1,25 @@
+┣ 📂app
+┃ ┣ 📂about
+┃ ┃ ┗ 📜page.jsx
+┃ ┣ 📂crud
+┃ ┃ ┗ 📜page.jsx
+┃ ┣ 📂projects
+┃ ┣ 📜data.js
+┃ ┣ 📜layout.js
+┃ ┗ 📜page.jsx
+┣ 📂components
+┃ ┣ 📂common
+┃ ┃ ┣ 📜aside.jsx
+┃ ┃ ┣ 📜header.jsx
+┃ ┃ ┗ 📜navbar.jsx
+┃ ┣ 📂crud
+┃ ┣ 📂home
+┃ ┣ 📂projects
+┃ ┃ ┗ 📜projectCard.jsx
+┃ ┣ 📜button.jsx
+┃ ┣ 📜container.jsx
+┃ ┣ 📜HeroSection.jsx
+┃ ┣ 📜logo.jsx
+┃ ┗ 📜workSection.jsx
+┗ 📂styles
+  ┗ 📜globals.css
