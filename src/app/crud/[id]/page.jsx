@@ -2,13 +2,13 @@
 
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import UserForm from "@/components/crud/useForm";
 UserForm;
 
 const UpdateUserPage = () => {
   const router = useRouter();
-  const { id } = router.query;
+  const { id } = useParams();
 
   const [userData, setUserData] = useState(null);
 
