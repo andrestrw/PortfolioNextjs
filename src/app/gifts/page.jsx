@@ -1,6 +1,6 @@
 "use client";
 
-import { AddCategory, GifGrid } from "@/components/gifs";
+import { GifGrid } from "@/components/gifs";
 import GifExpertApp from "./gifExpertApp";
 
 const GifsPage = () => {
