@@ -2,8 +2,9 @@ import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import db from "../../../libs/db";
 import bcrypt from "bcrypt";
+import { signIn } from "next-auth/react";
 
-const authOptions = {
+export const authOptions = {
   providers: [
     CredentialsProvider({
       name: "Credentials",
@@ -22,6 +23,7 @@ const authOptions = {
       async authorize(credentials, req) {
         console.log(credentials);
 
+        // Buscar usuario en la base de datos
         const userFound = await db.user.findUnique({
           where: {
             email: credentials.email,
@@ -47,6 +49,9 @@ const authOptions = {
       },
     }),
   ],
+  pages: {
+    signIn: "/auth/login",
+  },
 };
 
 const handler = NextAuth(authOptions);

@@ -1,10 +1,11 @@
+//manejar el problema de múltiples instancias de PrismaClient en Next.js durante el desarrollo.
 const { PrismaClient } = require("@prisma/client");
 
 const prismaClientSingleton = () => {
+  // Crea y retorna una instancia ->encapsular creación de la instancia
   return new PrismaClient();
 };
 
-// No es necesario declarar tipos en JavaScript
 const prisma = globalThis.prismaGlobal ?? prismaClientSingleton();
 
 export default prisma;
