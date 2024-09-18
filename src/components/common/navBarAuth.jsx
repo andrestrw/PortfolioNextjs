@@ -1,9 +1,10 @@
-import Link from "next/link";
-import { getServerSession } from "next-auth/next";
-import authOptions from "../../app/api/auth/[...nextauth]/route";
+"use client";
 
-async function NavBarAuth() {
-  const session = await getServerSession(authOptions);
+import Link from "next/link";
+import { useSession, signOut } from "next-auth/react";
+
+function NavBarAuth() {
+  const { data: session, status } = useSession();
   console.log(session);
 
   return (
@@ -11,7 +12,9 @@ async function NavBarAuth() {
       <h1 className="text-xl font-bold">NextAuth</h1>
 
       <ul className="flex gap-x-2">
-        {!session?.user ? (
+        {status === "loading" ? (
+          <li>Loading...</li>
+        ) : !session ? (
           <>
             <li>
               <Link href="/">Home</Link>
@@ -29,7 +32,7 @@ async function NavBarAuth() {
               <Link href="/dashboard">Dashboard</Link>
             </li>
             <li>
-              <Link href="/api/auth/signout">Logout</Link>
+              <button onClick={() => signOut()}>Logout</button>
             </li>
           </>
         )}

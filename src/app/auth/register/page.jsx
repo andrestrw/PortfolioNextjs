@@ -1,6 +1,6 @@
 "use client";
 
-//import NavBarAuth from "@/components/common/navBarAuth";
+import NavBarAuth from "../../../components/common/navBarAuth";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 
@@ -39,7 +39,7 @@ const RegisterPage = () => {
 
   return (
     <>
-      {/* <NavBarAuth></NavBarAuth> */}
+      <NavBarAuth></NavBarAuth>
       <div className="bg-black h-[calc(100vh-7rem)] flex justify-center items-center">
         <form onSubmit={onSubmit} className="w-1/4">
           <h1 className="text-white font-bold text-4xl mb-4 ">Register</h1>

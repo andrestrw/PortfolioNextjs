@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-// import NavBarAuth from "../../../components/common/navBarAuth";
+import NavBarAuth from "../../../components/common/navBarAuth";
 
 const LoginPage = () => {
   const {
@@ -38,7 +38,7 @@ const LoginPage = () => {
 
   return (
     <>
-      {/* //<NavBarAuth></NavBarAuth> */}
+      <NavBarAuth></NavBarAuth>
       <div className="bg-black h-[calc(100vh-7rem)] flex justify-center items-center">
         <form onSubmit={onSubmit} className="w-1/4">
           {error && <p className="bg-red-500 text-xs">{error} </p>}
