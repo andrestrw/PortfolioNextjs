@@ -1,6 +1,6 @@
 "use client";
-
-import UserList from "@/components/crud/userList";
+import UserList from "../../components/crud/userList";
+// import UserList from "@/components/crud/userList";
 
 UserList;
 

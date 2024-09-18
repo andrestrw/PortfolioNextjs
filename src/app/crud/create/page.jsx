@@ -1,6 +1,7 @@
 "use client";
 
-import UserForm from "@/components/crud/useForm";
+// import UserForm from "@/components/crud/useForm";
+import UserForm from "../../../components/crud/useForm";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 UserForm;

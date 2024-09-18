@@ -1,7 +1,10 @@
 "use client";
 
-import UseFetchGifs from "@/hooks/useFetchGifs.js";
-import { GifItem } from "@/components/gifs/index";
+// import UseFetchGifs from "@/hooks/useFetchGifs.js";
+// import { GifItem } from "@/components/gifs/index";
+
+import UseFetchGifs from "../../hooks/useFetchGifs";
+import GifItem from "../../components/gifs/giftItem";
 
 const GifGrid = ({ category }) => {
   const { images, isLoading } = UseFetchGifs(category);
