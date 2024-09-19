@@ -1,7 +1,7 @@
 "use client";
 
 // import { GifGrid } from "@/components/gifs";
-import { GifGrid } from "../../components/gifs/gifGrid";
+import GifGrid from "../../components/gifs/gifGrid";
 import GifExpertApp from "./gifExpertApp";
 
 const GifsPage = () => {
