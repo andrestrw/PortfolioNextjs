@@ -1,5 +1,6 @@
 import "../styles/globals.css";
-import SessionProviderWrapper from "../components/sessionProvider/SessionProviderWrapper";
+// import SessionProviderWrapper from "../components/sessionProvider/SessionProviderWrapper";
+import { AuthProvider } from "../components/sessionProvider/authProvider";
 
 export const metadata = {
   title: "Andrés Chicaiza | Desarrollador full stack ",
@@ -12,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <meta charSet="UTF-8" />
       <body className="bg-bgGeneral">
-        <SessionProviderWrapper>{children}</SessionProviderWrapper>
+        <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
   );
