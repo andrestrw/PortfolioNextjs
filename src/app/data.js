@@ -1,17 +1,50 @@
 export const projects = [
   {
-    title: "HTML - SASS - JS - GULP - NPM",
+    title: "SASS - NPM - HTML - GULP - JS",
     description:
-      "Web dedicada al lanzamiento de Halo Infinite, diseño de tonos oscuros y verdes para capturar la esencia del universo del juego...",
-    imageSrc: "/img/screen.png",
-    altText: "Proyecto de lanzamiento de Halo Infinite",
-    projectLink: "https://heroic-cranachan-cfa91d.netlify.app/",
+      "Proyecto de bienes raíces realizado sobre la base del curso en desarrollo web de Udemy...",
+    imageSrc: "/img/MiltonReaders_scala_black_interna_468_2.png",
+    altText: "Proyecto de bienes raíces",
+    projectLink: "https://luminous-lolly-a9dd4e.netlify.app/",
+  },
+
+  {
+    title: "SASS - NPM - HTML - GULP - JS",
+    description:
+      "Proyecto de bienes raíces realizado sobre la base del curso en desarrollo web de Udemy...",
+    imageSrc: "/img/Hipoges-scala-black-468.png",
+    altText: "Proyecto de bienes raíces",
+    projectLink: "https://luminous-lolly-a9dd4e.netlify.app/",
   },
   {
     title: "SASS - NPM - HTML - GULP - JS",
     description:
       "Proyecto de bienes raíces realizado sobre la base del curso en desarrollo web de Udemy...",
-    imageSrc: "/img/screen.png",
+    imageSrc: "/img/Dhoce_scala_black_interna_468.png",
+    altText: "Proyecto de bienes raíces",
+    projectLink: "https://luminous-lolly-a9dd4e.netlify.app/",
+  },
+  {
+    title: "SASS - NPM - HTML - GULP - JS",
+    description:
+      "Proyecto de bienes raíces realizado sobre la base del curso en desarrollo web de Udemy...",
+    imageSrc: "/img/Revicasa_scala_black_interna_468_2.png",
+    altText: "Proyecto de bienes raíces",
+    projectLink: "https://luminous-lolly-a9dd4e.netlify.app/",
+  },
+  {
+    title: "SASS - NPM - HTML - GULP - JS",
+    description:
+      "Proyecto de bienes raíces realizado sobre la base del curso en desarrollo web de Udemy...",
+    imageSrc: "/img/Fermento_scala_black_interna_468_2.png",
+    altText: "Proyecto de bienes raíces",
+    projectLink: "https://luminous-lolly-a9dd4e.netlify.app/",
+  },
+  {
+    title: "SASS - NPM - HTML - GULP - JS",
+    description:
+      "Proyecto de bienes raíces realizado sobre la base del curso en desarrollo web de Udemy...",
+    imageSrc: "/img/GenZ_scala_black_interna_468.png",
     altText: "Proyecto de bienes raíces",
     projectLink: "https://luminous-lolly-a9dd4e.netlify.app/",
   },

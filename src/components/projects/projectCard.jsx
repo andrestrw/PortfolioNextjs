@@ -16,16 +16,20 @@ const ProjectCard = ({
     >
       {/* overflow-hidden indica cómo  manejar el contenido que sobrepasa los límites de un elemento, establece que cualquier contenido que exceda los límites del elemento (su caja de contenido) será recortado y no será visible fuera de este límite. */}
 
-      <div className=" overflow-hidden text-white ">
+      <div id="works" className=" overflow-hidden text-white ">
         <div className="relative h-64">
           <Image
+            style={{
+              objectFit: "contain",
+            }}
             src={imageSrc}
             alt={altText}
-            layout="fill"
-            objectFit="contain"
+            fill={true}
+            // objectFit="contain"
             className="rounded-t-lg"
             placeholder="blur"
-            blurDataURL="/images/screen.png"
+            blurDataURL="/img/GenZ_scala_black_interna_468.png"
+            sizes="(max-width: 768px) 50vw, (max-width: 1200px) 100vw, 100vw "
           />
         </div>
         <div className="p-6 text-center ">
