@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <meta charSet="UTF-8" />
-      <body>
+      <body className="bg-bgGeneral">
         <AuthProvider>{children}</AuthProvider>
       </body>
     </html>

@@ -46,10 +46,10 @@ const HeroSection = () => {
               src="/img/computerVersion.jpg"
               fill={true}
               sizes="(max-width: 768px) 50vw, (max-width: 1200px) 100vw, 100vw "
-              // style={{
-              //   objectFit: "contain",
-              //   objectPosition: "center",
-              // }}
+              style={{
+                objectFit: "contain",
+                objectPosition: "center",
+              }}
             />
           </div>
         </section>
