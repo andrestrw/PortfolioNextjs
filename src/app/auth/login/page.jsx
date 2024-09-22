@@ -18,7 +18,7 @@ const LoginPage = () => {
   const [error, setError] = useState(null);
 
   const onSubmit = handleSubmit(async (data) => {
-    console.log(data);
+    // console.log(data);
 
     const res = await signIn("credentials", {
       email: data.email,
@@ -26,7 +26,7 @@ const LoginPage = () => {
       redirect: false,
     });
 
-    console.log(res);
+    // console.log(res);
 
     if (res.error) {
       setError(res.error);

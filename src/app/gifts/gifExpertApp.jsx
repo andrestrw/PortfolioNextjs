@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { AddCategory, GifGrid } from "../../components/gifs";
+import GifGrid from "../../components/gifs/gifGrid";
+import AddCategory from "../../components/gifs/addCategory";
 
 export const GifExpertApp = () => {
-  const [categories, setCategories] = useState([""]);
+  const [categories, setCategories] = useState(["One Piece"]);
 
   const onAddCategory = (newCategory) => {
     if (categories.includes(newCategory)) return;
@@ -13,7 +14,7 @@ export const GifExpertApp = () => {
 
   return (
     <>
-      <h1>GifExpertApp</h1>
+      <h1 className="text-4xl font-bold mb-4">GifExpertApp</h1>
       <AddCategory onNewCategory={(value) => onAddCategory(value)} />
       {categories.map((category) => (
         <GifGrid key={category} category={category} />

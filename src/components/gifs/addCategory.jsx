@@ -20,6 +20,7 @@ export const AddCategory = ({ onNewCategory }) => {
   return (
     <form onSubmit={onSubmit}>
       <input
+        className="bg-white radius rounded border-2 border-violet-500 text-black text-lg	px-4 py-3 w-full"
         type="text"
         placeholder="Buscar gifs"
         value={inputValue}

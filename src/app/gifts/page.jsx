@@ -1,16 +1,19 @@
 "use client";
 
-import GifGrid from "../../components/gifs/gifGrid";
+import Container from "../../components/container";
+
 import GifExpertApp from "./gifExpertApp";
 
 const GifsPage = () => {
-  const category = "cats"; // Puedes hacer que esta categoría sea dinámica o basada en el input del usuario
+  // const category = "cats"; // Puedes hacer que esta categoría sea dinámica o basada en el input del usuario
 
   return (
-    <div>
-      <h1>GIFs de {category}</h1>
-      <GifExpertApp></GifExpertApp>
-      <GifGrid category={category} />
+    <div style={{ backgroundColor: "rgb(234, 234, 234)" }}>
+      <Container>
+        {/* <h1>GIFs de {category}</h1> */}
+        <GifExpertApp></GifExpertApp>
+        {/* <GifGrid category={category} /> */}
+      </Container>
     </div>
   );
 };

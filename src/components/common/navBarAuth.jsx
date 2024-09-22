@@ -5,7 +5,7 @@ import { useSession, signOut } from "next-auth/react";
 
 function NavBarAuth() {
   const { data: session, status } = useSession();
-  console.log(session);
+  // console.log(session);
 
   return (
     <nav className="flex justify-between items-center bg-gray-950 text-white px-24 py-3">

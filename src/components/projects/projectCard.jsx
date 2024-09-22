@@ -19,9 +19,9 @@ const ProjectCard = ({
       <div id="works" className=" overflow-hidden text-white ">
         <div className="relative h-64">
           <Image
-            style={{
-              objectFit: "contain",
-            }}
+            // style={{
+            //   objectFit: "contain",
+            // }}
             src={imageSrc}
             alt={altText}
             fill={true}

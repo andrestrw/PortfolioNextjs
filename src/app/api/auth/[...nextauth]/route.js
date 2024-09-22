@@ -21,7 +21,7 @@ const authOptions = {
         },
       },
       async authorize(credentials, req) {
-        console.log(credentials);
+        // console.log(credentials);
 
         // Buscar usuario en la base de datos
         const userFound = await db.user.findUnique({

@@ -1,25 +1,25 @@
 "use client";
-
+import { projects } from "../app/data";
 import Image from "next/image";
 import Container from "./container";
 import { useEffect, useState } from "react";
 
 const HeroSection = () => {
-  const [imageSrc, setImageSrc] = useState("/img/mobileVersion.jpg");
+  // const [imageSrc, setImageSrc] = useState("/img/mobileVersion.jpg");
 
-  useEffect(() => {
-    const updateImgSrc = () => {
-      if (window.innerWidth < 1532) {
-        setImageSrc("/img/mobileVersion.jpg");
-      } else {
-        setImageSrc("/img/computerVersion.jpg");
-      }
-    };
+  // useEffect(() => {
+  //   const updateImgSrc = () => {
+  //     if (window.innerWidth < 1532) {
+  //       setImageSrc("/img/mobileVersion.jpg");
+  //     } else {
+  //       setImageSrc("/img/computerVersion.jpg");
+  //     }
+  //   };
 
-    updateImgSrc();
+  //   updateImgSrc();
 
-    window.addEventListener("resize", updateImgSrc);
-  });
+  //   window.addEventListener("resize", updateImgSrc);
+  // });
 
   return (
     <Container>
@@ -43,13 +43,13 @@ const HeroSection = () => {
             <Image
               priority={true}
               alt="Picture "
-              src={imageSrc}
+              src="/img/computerVersion.jpg"
               fill={true}
               sizes="(max-width: 768px) 50vw, (max-width: 1200px) 100vw, 100vw "
-              style={{
-                objectFit: "contain",
-                objectPosition: "center",
-              }}
+              // style={{
+              //   objectFit: "contain",
+              //   objectPosition: "center",
+              // }}
             />
           </div>
         </section>
