@@ -8,7 +8,7 @@ function NavBarAuth() {
   // console.log(session);
 
   return (
-    <nav className="flex justify-between items-center bg-gray-950 text-white px-24 py-3">
+    <nav className="flex justify-between items-center bg-bgGeneral   text-white px-24 py-3">
       <h1 className="text-xl font-bold">NextAuth</h1>
 
       <ul className="flex gap-x-2">

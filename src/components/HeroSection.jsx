@@ -1,26 +1,9 @@
 "use client";
-import { projects } from "../app/data";
+
 import Image from "next/image";
 import Container from "./container";
-import { useEffect, useState } from "react";
 
 const HeroSection = () => {
-  // const [imageSrc, setImageSrc] = useState("/img/mobileVersion.jpg");
-
-  // useEffect(() => {
-  //   const updateImgSrc = () => {
-  //     if (window.innerWidth < 1532) {
-  //       setImageSrc("/img/mobileVersion.jpg");
-  //     } else {
-  //       setImageSrc("/img/computerVersion.jpg");
-  //     }
-  //   };
-
-  //   updateImgSrc();
-
-  //   window.addEventListener("resize", updateImgSrc);
-  // });
-
   return (
     <Container>
       <main>

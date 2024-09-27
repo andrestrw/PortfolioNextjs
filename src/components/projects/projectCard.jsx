@@ -25,7 +25,6 @@ const ProjectCard = ({
             src={imageSrc}
             alt={altText}
             fill={true}
-            objectFit="contain"
             className="rounded-t-lg"
             placeholder="blur"
             blurDataURL="/img/GenZ_scala_black_interna_468.png"

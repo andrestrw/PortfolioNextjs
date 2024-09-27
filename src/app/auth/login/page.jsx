@@ -5,6 +5,8 @@ import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import NavBarAuth from "../../../components/common/navBarAuth";
+import Container from "../../../components/container";
+import Link from "next/link";
 
 const LoginPage = () => {
   const {
@@ -38,53 +40,84 @@ const LoginPage = () => {
 
   return (
     <>
-      <NavBarAuth></NavBarAuth>
-      <div className="bg-black h-[calc(100vh-7rem)] flex justify-center items-center">
-        <form onSubmit={onSubmit} className="w-1/4">
-          {error && <p className="bg-red-500 text-xs">{error} </p>}
+      <Container>
+        <div className=" flex-propio bg-bgGeneral ">
+          <div className="  text-white flex justify-center flex-col  text-left  items-center  ">
+            <div className="w-5/6 ">
+              <h2 className="text-white text-2xl font-bold mb-4 ">
+                ¡Bienvenido!
+              </h2>
+              <p className="text-white text-xl font-medium mb-4">
+                Si no tienes una cuenta, te invitamos a registrarte haciendo
+                clic en {""}
+                <Link
+                  href="/auth/register"
+                  className="register-link border-b  border-white "
+                >
+                  Registrarse
+                </Link>
+                <br />
+              </p>
+              {/* <p className="text-white text-xl font-medium mb-4">
+                Este proyecto demuestra una implementación sencilla de
+                autenticación usando NextAuth.
+              </p> */}
+            </div>
+          </div>
 
-          <h1 className="text-white font-bold text-4xl mb-4 ">Login</h1>
-          <label htmlFor="email" className="text-white mb-2 block text-sm">
-            Email
-          </label>
-          <input
-            type="email"
-            {...register("email", {
-              required: {
-                value: true,
-                message: "Email is required",
-              },
-            })}
-            className="p-3 rounded block mb-2 bg-slate-900 text-white w-full"
-            placeholder="user@email.com"
-          />
+          <div className="bg-bgGeneral h-[calc(100vh-7rem)] flex justify-center items-center w-8/12 ">
+            <form onSubmit={onSubmit} className="w-60">
+              {error && <p className="bg-red-500 text-xs w-80">{error} </p>}
 
-          {errors.email && (
-            <span className="text-red-500">{errors.email.message}</span>
-          )}
+              <h1 className="text-white font-bold text-4xl mb-4 min-w-72 ">
+                Login
+              </h1>
+              <label htmlFor="email" className="text-white mb-2 block text-sm">
+                Email
+              </label>
+              <input
+                type="email"
+                {...register("email", {
+                  required: {
+                    value: true,
+                    message: "Email is required",
+                  },
+                })}
+                className="p-3 rounded block mb-2 bg-slate-900 text-white w-full"
+                placeholder="user@email.com"
+              />
 
-          <label htmlFor="password" className="text-white mb-2 block text-sm">
-            Password
-          </label>
-          <input
-            type="password"
-            {...register("password", {
-              required: {
-                value: true,
-                message: "Passwordy is required",
-              },
-            })}
-            className="p-3 rounded block mb-2 bg-slate-900 text-white w-full"
-            placeholder="***********"
-          />
-          {errors.password && (
-            <span className="text-red-500">{errors.password.message}</span>
-          )}
-          <button className="w-full bg-blue-500 text-white p-3 rounded-lg mt-2 ">
-            Login
-          </button>
-        </form>
-      </div>
+              {errors.email && (
+                <span className="text-red-500">{errors.email.message}</span>
+              )}
+
+              <label
+                htmlFor="password"
+                className="text-white mb-2 block text-sm"
+              >
+                Password
+              </label>
+              <input
+                type="password"
+                {...register("password", {
+                  required: {
+                    value: true,
+                    message: "Passwordy is required",
+                  },
+                })}
+                className="p-3 rounded block mb-2 bg-slate-900 text-white w-full"
+                placeholder="***********"
+              />
+              {errors.password && (
+                <span className="text-red-500">{errors.password.message}</span>
+              )}
+              <button className="w-full bg-blue-500 text-white p-3 rounded-lg mt-2 ">
+                Login
+              </button>
+            </form>
+          </div>
+        </div>
+      </Container>
     </>
   );
 };

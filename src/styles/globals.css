@@ -1,36 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.card-grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.card {
-  align-content: center;
-  align-items: center;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+.flex-propio {
   display: flex;
   flex-direction: column;
-  height: 0%;
-  justify-content: center;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  overflow: hidden;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .flex-propio {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
 }
 
 @layer components {
   .bg-general {
     @apply bg-bgGeneral;
-  }
-  .fuente-general {
-    @apply font-display text-white;
   }
 }

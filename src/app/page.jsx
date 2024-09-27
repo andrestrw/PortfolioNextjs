@@ -1,3 +1,5 @@
+import "../styles/globals.css";
+
 import Header from "../components/common/header";
 
 import HeroSection from "../components/HeroSection";

@@ -13,9 +13,7 @@ module.exports = {
       colors: {
         bgGeneral: "#151515",
       },
-      fontFamily: {
-        display: "Rubik, ui-serif",
-      },
+
       spacing: {
         752: "752px",
       },

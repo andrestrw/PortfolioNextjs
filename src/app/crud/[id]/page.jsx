@@ -4,8 +4,6 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import UserForm from "../../../components/crud/useForm";
-// import UserForm from "@/components/crud/useForm";
-UserForm;
 
 const UpdateUserPage = () => {
   const router = useRouter();
