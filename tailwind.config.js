@@ -21,10 +21,7 @@ module.exports = {
         400: "400px",
         1020: "1020px",
       },
-      gridTemplateColumns: {
-        custom: "repeat(auto-fit, minmax(700px, auto))", // Configuración por defecto
-        "sm-custom": "repeat(auto-fit, minmax(100%, auto))", // Configuración para pantallas menores a 500px
-      },
+
       fontSize: {
         "7xl": [
           "4.5rem",

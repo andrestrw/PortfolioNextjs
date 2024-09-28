@@ -2,22 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.flex-propio {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  .flex-propio {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-}
-
 @layer components {
   .bg-general {
     @apply bg-bgGeneral;
+  }
+  .flex-card {
+    @apply @media (min-width: 768px) {
+      flex-direction: column;
+    }
   }
 }

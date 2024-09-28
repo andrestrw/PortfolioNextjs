@@ -40,11 +40,12 @@ const LoginPage = () => {
 
   return (
     <>
-      <Container>
-        <div className=" flex-propio bg-bgGeneral ">
-          <div className="  text-white flex justify-center flex-col  text-left  items-center  ">
+      <Container className=" min-h-screen  md:h-full">
+        <NavBarAuth />
+        <div className=" bg-bgGeneral flex flex-col-reverse md:flex-row md:flex gap-6  min-h-[80vh] md:h-5/6 ">
+          <div className="  text-white flex justify-center flex-col  text-center md:text-left items-center ">
             <div className="w-5/6 ">
-              <h2 className="text-white text-2xl font-bold mb-4 ">
+              <h2 className="text-white text-2xl font-bold mb-4 text-center md:text-left  ">
                 ¡Bienvenido!
               </h2>
               <p className="text-white text-xl font-medium mb-4">
@@ -65,7 +66,7 @@ const LoginPage = () => {
             </div>
           </div>
 
-          <div className="bg-bgGeneral h-[calc(100vh-7rem)] flex justify-center items-center w-8/12 ">
+          <div className="bg-bgGeneral  h-80vh md:h-screen flex justify-center items-center w-12/12 md:w-8/12  grow ">
             <form onSubmit={onSubmit} className="w-60">
               {error && <p className="bg-red-500 text-xs w-80">{error} </p>}
 
