@@ -10,7 +10,7 @@ const HeroSection = () => {
         <section className=" grid gap-x-20 gap-y-8  grid-cols-sm-custom  md:grid-cols-custom  ">
           {/* Sección texto */}
           <div className=" relative h-auto  min-[1536px]:h-[1020px] flex justify-center items-center ">
-            <p className=" text-white fuente-general  text-3xl  text-center  xl:text-7xl  ">
+            <p className=" text-white fuente-general  text-xl  sm:text-4xl text-center  xl:text-7xl  ">
               With an analytical mind, a resolutive approach, and unwavering
               resilience, I am a full stack developer who masters the JavaScript
               ecosystem to turn ideas into digital realities

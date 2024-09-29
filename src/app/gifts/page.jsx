@@ -10,9 +10,9 @@ const GifsPage = () => {
   return (
     <div style={{ backgroundColor: "rgb(234, 234, 234)" }}>
       <Container>
-        {/* <h1>GIFs de {category}</h1> */}
-        <GifExpertApp></GifExpertApp>
-        {/* <GifGrid category={category} /> */}
+
+        <GifExpertApp/>
+  
       </Container>
     </div>
   );

@@ -1,15 +1,18 @@
-import { projects } from "../app/data";
+
 import ProjectCard from "./projects/projectCard";
 
-const WorkSection = () => {
+const WorkSection = ({sectionTitle, sectionSubtitle, projects}) => {
+
+
   return (
     <section id="work" className=" px-5 my-10 lg:px-20 py-10">
       <div className="container mx-auto">
         <div className="row pb-4">
           <div className="lg:w-2/3">
-            <h2 className="text-2xl text-gray-600">Proyectos</h2>
+            <h2 className="text-2xl text-gray-600">{sectionTitle}</h2>
             <h1 className="text-4xl font-bold fuente-general text-blue-50">
-              Mis proyectos personales
+  
+            {sectionSubtitle}
             </h1>
           </div>
         </div>

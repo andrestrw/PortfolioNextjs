@@ -4,7 +4,7 @@ import Logo from "../logo.jsx";
 import Navbar from "./navbar.jsx";
 import Container from "../container.jsx";
 
-import Button from "../button.jsx";
+
 import Aside from "./aside.jsx";
 
 const Header = () => {
@@ -13,10 +13,10 @@ const Header = () => {
       <Container>
         <div className="flex justify-between  items-center h-full">
           <Logo />
-          <Navbar></Navbar>
-          <Button />
+          <Navbar/>
+ 
         </div>
-        <Aside></Aside>
+        <Aside/>
       </Container>
     </>
   );

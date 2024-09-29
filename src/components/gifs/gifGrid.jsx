@@ -1,20 +1,20 @@
 "use client";
 
-// import UseFetchGifs from "@/hooks/useFetchGifs.js";
-// import { GifItem } from "@/components/gifs/index";
 
 import UseFetchGifs from "../../hooks/useFetchGifs";
 import GifItem from "../../components/gifs/giftItem";
 
 const GifGrid = ({ category }) => {
   const { images, isLoading } = UseFetchGifs(category);
-  const imageStyle = {};
+
   return (
     <>
-      {/* {isLoading && <h2>Cargando...</h2>} */}
+      {isLoading && <h2>Cargando...</h2>}
+
+      <div className="font-bold text-2xl pt-3 " >Escribe dentro de nuestro buscador y te traeremos 4 gifts!</div>
       <h3
         style={{
-          fontSize: "3rem",
+          fontSize: "2rem",
           marginBotton: "5px",
         }}
       >
@@ -27,6 +27,7 @@ const GifGrid = ({ category }) => {
           flexWrap: "wrap",
           justifyContent: "center",
         }}
+
       >
         {images.map((image) => (
           <GifItem key={image.id} {...image} />
