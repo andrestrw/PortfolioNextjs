@@ -5,7 +5,7 @@ const Aside = () => {
     <aside className="pt-2">
       <ul>
         <li className="flex">
-          <Link href="https://www.linkedin.com">
+          <Link href="https://www.linkedin.com/in/andres--chicaiza/">
             <svg
               className="w-6"
               xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@ const Aside = () => {
               ></path>
             </svg>
           </Link>
-          <Link href="https://www.github.com">
+          <Link href="https://github.com/andrestrw">
             <svg
               className="w-6"
               xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,7 @@ const Aside = () => {
               ></path>
             </svg>
           </Link>
-          <Link href="https://www.github.com">
+          <Link href="mailto:jandres33110@gmail.com">
             <svg
               className="w-6"
               xmlns="http://www.w3.org/2000/svg"
