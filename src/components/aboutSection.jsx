@@ -18,14 +18,15 @@ const AboutSection = () => {
             que la disciplina constante siempre da resultados positivos.
             <br />
             <br />
-            Después de 2 años en el sector de las telecomunicaciones, decidí
-            cambiar mi rumbo profesional y enfocarme en la programación, atraído
-            por los desafíos y la creatividad que ofrece este sector.
+            Después de varios años en el sector de las telecomunicaciones,
+            decidí cambiar mi rumbo profesional y enfocarme en la programación,
+            atraído por los desafíos y la creatividad que ofrece este sector.
             <br />
             <br />
             Me formé trabajando como desarrollador full stack en una agencia de
-            marketing digital, durante 2 años, paralelamente cursé un máster en
-            desarrollo web avanzado de 172 horas.
+            marketing digital, paralelamente cursé un máster en desarrollo web
+            avanzado de más de 180 horas y actualmente trabajo para una empresa
+            multinacional como implementador de software.
             <br />
             <br />
             En este proceso, adquirí habilidades avanzadas en diversas
@@ -86,7 +87,7 @@ const AboutSection = () => {
             </ol>
           </div>
 
-          <p className="    text-sm md:text-xl    md:mx-20 mx-16 inline-block text-white">
+          <p className="    text-sm md:text-xl     inline-block text-white">
             Si deslizas hacia abajo, podrás visualizar todos mis trabajos.
           </p>
 
