@@ -4,7 +4,7 @@ export const projects2 = [
     description: "",
     imageSrc: "/img/Rick and Morty_scala_black_interna_468.png",
     altText: "Proyecto de bienes raíces",
-    projectLink: "/dashboard",
+    projectLink: "/gifts",
   },
   {
     title: "Proyecto Login",
