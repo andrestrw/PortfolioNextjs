@@ -45,9 +45,9 @@ const UserList = () => {
         </thead>
         <tbody>
           {users.map((user) => (
-            <tr key={user._id}>
-              <td className="text-center py-3">{user.name}</td>
-              <td className="text-center py-3">{user.email}</td>
+            <tr  className="h-24" key={user._id}>
+              <td className="text-center  py-3">{user.name}</td>
+              <td className="text-center h-24 py-3  flex justify-center items-center "> <span className="whitespace-nowrap overflow-hidden text-ellipsis" >{user.email}</span> </td>
               <td className="text-center py-3">{user.age}</td>
               <td className="text-center py-3">
                 <Link
