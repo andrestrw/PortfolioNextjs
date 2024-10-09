@@ -1,19 +1,23 @@
 export const projects2 = [
-    {
-      title: "prueba",
-      description:
-        "Proyecto educativo",
-      imageSrc: "/img/MiltonReaders_scala_black_interna_468_2.png",
-      altText: "Proyecto de bienes raíces",
-      projectLink: "https://luminous-lolly-a9dd4e.netlify.app/",
-    },
-    {
-        title: "prueba",
-        description:
-          "Proyecto educativo",
-        imageSrc: "/img/MiltonReaders_scala_black_interna_468_2.png",
-        altText: "Proyecto de bienes raíces",
-        projectLink: "https://luminous-lolly-a9dd4e.netlify.app/",
-      },
-  
+  {
+    title: "Proyecto Gift",
+    description: "",
+    imageSrc: "/img/Rick and Morty_scala_black_interna_468.png",
+    altText: "Proyecto de bienes raíces",
+    projectLink: "/gifts",
+  },
+  {
+    title: "Proyecto Login",
+    description: "",
+    imageSrc: "/img/NextLogin_scala_black_interna_468.png",
+    altText: "Proyecto de bienes raíces",
+    projectLink: "/auth/login",
+  },
+  {
+    title: "Projecto CRUD",
+    description: "",
+    imageSrc: "/img/Cud_scala_black_interna_468.png",
+    altText: "Proyecto de bienes raíces",
+    projectLink: "/crud",
+  },
 ];

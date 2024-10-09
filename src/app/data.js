@@ -1,51 +1,45 @@
 export const projects = [
   {
     title: "JS - PHP - WORDPRESS - CSS",
-    description:
-      "Proyecto educativo",
+    description: "Proyecto Milton Readers",
     imageSrc: "/img/MiltonReaders_scala_black_interna_468_2.png",
     altText: "Proyecto de bienes raíces",
-    projectLink: "https://luminous-lolly-a9dd4e.netlify.app/",
+    projectLink: "https://www.miltonreaders.com/",
   },
 
   {
     title: "JS - PHP - WORDPRESS - CSS",
-    description:
-      "Proyecto ",
+    description: "Proyecto  Hipoges",
     imageSrc: "/img/Hipoges-scala-black-468.png",
     altText: "Proyecto de bienes raíces",
-    projectLink: "https://luminous-lolly-a9dd4e.netlify.app/",
+    projectLink: "https://pontuprecio.es/",
   },
   {
     title: "JS - PHP - WORDPRESS - CSS",
-    description:
-      "Proyecto de bienes raíces realizado sobre la base del curso en desarrollo web de Udemy...",
+    description: "Proyecto Dhoce.",
     imageSrc: "/img/Dhoce_scala_black_interna_468.png",
     altText: "Proyecto de bienes raíces",
-    projectLink: "https://luminous-lolly-a9dd4e.netlify.app/",
+    projectLink: "https://dhocearquitectura.es/",
   },
   {
     title: "JS - PHP - WORDPRESS - CSS",
-    description:
-      "Proyecto de bienes raíces realizado sobre la base del curso en desarrollo web de Udemy...",
+    description: "Proyecto Revicasa",
     imageSrc: "/img/Revicasa_scala_black_interna_468_2.png",
     altText: "Proyecto de bienes raíces",
-    projectLink: "https://luminous-lolly-a9dd4e.netlify.app/",
+    projectLink: "https://revicasa.com/ ",
   },
   {
     title: "JS - PHP - WORDPRESS - CSS",
-    description:
-      "Proyecto de bienes raíces realizado sobre la base del curso en desarrollo web de Udemy...",
+    description: "Proyecto panadería",
     imageSrc: "/img/Fermento_scala_black_interna_468_2.png",
-    altText: "Proyecto de bienes raíces",
-    projectLink: "https://luminous-lolly-a9dd4e.netlify.app/",
+    altText: "Proyecto Fermento",
+    projectLink: "https://www.casadepanaderos.com/",
   },
   {
     title: "JS - PHP - WORDPRESS - CSS",
-    description:
-      "Proyecto de bienes raíces realizado sobre la base del curso en desarrollo web de Udemy...",
+    description: "Proyecto Gen Z",
     imageSrc: "/img/GenZ_scala_black_interna_468.png",
     altText: "Proyecto de bienes raíces",
-    projectLink: "https://luminous-lolly-a9dd4e.netlify.app/",
+    projectLink: "https://keyfetch.comunicare.es/",
   },
 ];
